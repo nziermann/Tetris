@@ -1,4 +1,4 @@
-#include "/home/nils/workspace/tetris/include/O.h"
+#include "O.h"
 #include <string>
 
 //need function to set position of the objects
@@ -23,7 +23,7 @@ bool O::moveLeft()
     }
     for(int i = 0; i<4; i++)
     {
-        if(gameField.isFieldOccupied(position[i] - 1))
+        if(gameField.isfieldOccupied(position[i] - 1))
         {
             return false;
         }
@@ -47,7 +47,7 @@ bool O::moveRight()
     }
     for(int i = 0; i<4; i++)
     {
-        if(gameField.isFieldOccupied(position[i] + 1))
+        if(gameField.isfieldOccupied(position[i] + 1))
         {
             return false;
         }
@@ -71,7 +71,7 @@ bool O::moveDown()
     }
     for(int i = 0; i<4; i++)
     {
-        if(gameField.isFieldOccupied(position[i] + 10))
+        if(gameField.isfieldOccupied(position[i] + 10))
         {
             return false;
         }

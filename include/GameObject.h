@@ -12,7 +12,6 @@ class GameObject
         bool moveRight();
         bool moveDown();
         bool rotate();
-    private:
         static GameField gameField;
 };
 

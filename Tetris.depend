@@ -1,0 +1,232 @@
+# depslib dependency file v1.0
+1344169189 source:/home/nils/workspace/Tetris/src/CApp.cpp
+	"/home/nils/workspace/tetris/include/CApp.h"
+
+1344029174 /home/nils/workspace/tetris/include/CApp.h
+	<SDL.h>
+
+1327664837 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1327664837 /usr/include/SDL/SDL_platform.h
+
+1327664837 /usr/include/SDL/begin_code.h
+
+1327664837 /usr/include/SDL/close_code.h
+
+1327664837 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_keysym.h
+
+1327664837 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1327664837 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1327664837 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1344081616 source:/home/nils/workspace/Tetris/src/CApp_OnCleanup.cpp
+	"/home/nils/workspace/tetris/include/CApp.h"
+
+1344030180 source:/home/nils/workspace/Tetris/src/CApp_OnEvent.cpp
+	"/home/nils/workspace/tetris/include/CApp.h"
+
+1344030180 source:/home/nils/workspace/Tetris/src/CApp_OnInit.cpp
+	"/home/nils/workspace/tetris/include/CApp.h"
+
+1344030180 source:/home/nils/workspace/Tetris/src/CApp_OnLoop.cpp
+	"/home/nils/workspace/tetris/include/CApp.h"
+
+1344169189 source:/home/nils/workspace/Tetris/src/CApp_OnRender.cpp
+	"/home/nils/workspace/tetris/include/CApp.h"
+
+1344361603 source:/home/nils/workspace/Tetris/src/GameField.cpp
+	"/home/nils/workspace/tetris/include/GameField.h"
+	<SDL/SDL.h>
+	<string>
+
+1344361590 /home/nils/workspace/tetris/include/GameField.h
+	<SDL/SDL.h>
+	<string>
+
+1345229254 source:/home/nils/workspace/Tetris/src/GameObject.cpp
+	"/home/nils/workspace/tetris/include/GameObject.h"
+
+1344361685 /home/nils/workspace/tetris/include/GameObject.h
+
+1345236787 source:/home/nils/workspace/Tetris/src/O.cpp
+	"O.h"
+	<string>
+
+1345235964 /home/nils/workspace/Tetris/include/O.h
+	"GameObject.h"
+	"GameField.h"
+	<string>
+
+1345236870 /home/nils/workspace/Tetris/include/GameObject.h
+	"GameField.h"
+
+1344361590 /home/nils/workspace/Tetris/include/GameField.h
+	<SDL/SDL.h>
+	<string>
+

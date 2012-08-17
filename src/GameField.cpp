@@ -1,4 +1,4 @@
-#include "/home/nils/workspace/tetris/include/GameField.h"
+#include "GameField.h"
 #include <SDL/SDL.h>
 #include <string>
 

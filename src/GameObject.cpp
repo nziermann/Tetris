@@ -1,4 +1,4 @@
-#include "/home/nils/workspace/tetris/include/GameObject.h"
+#include "GameObject.h"
 
 GameObject::GameObject()
 {

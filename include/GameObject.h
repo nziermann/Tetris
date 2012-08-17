@@ -1,5 +1,6 @@
 #ifndef GAMEOBJECT_H
 #define GAMEOBJECT_H
+#include "GameField.h"
 
 
 class GameObject
@@ -11,8 +12,8 @@ class GameObject
         bool moveRight();
         bool moveDown();
         bool rotate();
-    protected:
     private:
+        static GameField gameField;
 };
 
 #endif // GAMEOBJECT_H

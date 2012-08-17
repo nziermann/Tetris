@@ -29,3 +29,4 @@ bool GameObject::rotate()
 {
     return true;
 }
+

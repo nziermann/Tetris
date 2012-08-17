@@ -1,7 +1,9 @@
 #ifndef O_H
 #define O_H
-#include "/home/nils/workspace/tetris/include/GameObject.h"
+#include "GameObject.h"
+#include "GameField.h"
 #include <string>
+
 using namespace std;
 
 class O : public GameObject

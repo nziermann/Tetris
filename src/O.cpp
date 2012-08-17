@@ -1,9 +1,10 @@
 #include "/home/nils/workspace/tetris/include/O.h"
+#include <string>
 
 //need function to set position of the objects
 O::O()
 {
-    //ctor
+    ImagePath = "O.bmp";
 }
 
 O::~O()
@@ -11,31 +12,35 @@ O::~O()
     //dtor
 }
 
-void O::moveLeft()
+bool O::moveLeft()
 {
     for(int i = 0; i<4; i++)
     {
         position[i]--;
     }
+    return true;
 }
 
-void O::moveRight()
+bool O::moveRight()
 {
     for(int i = 0; i<4; i++)
     {
         position[i]++;
     }
+    return true;
 }
 
-void O::moveDown()
+bool O::moveDown()
 {
     for(int i = 0; i<4; i++)
     {
         position[i] = position[i] + 10;
     }
+    return true;
 }
 
-void O::rotate()
+bool O::rotate()
 {
-
+    return true;
 }
+

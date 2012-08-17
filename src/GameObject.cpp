@@ -10,22 +10,22 @@ GameObject::~GameObject()
     //dtor
 }
 
-void GameObject::moveLeft()
+bool GameObject::moveLeft()
 {
-
+    return true;
 }
 
-void GameObject::moveRight()
+bool GameObject::moveRight()
 {
-
+    return true;
 }
 
-void GameObject::moveDown()
+bool GameObject::moveDown()
 {
-
+    return true;
 }
 
-void GameObject::rotate()
+bool GameObject::rotate()
 {
-
+    return true;
 }

@@ -1,19 +1,21 @@
 #ifndef O_H
 #define O_H
 #include "/home/nils/workspace/tetris/include/GameObject.h"
+#include <string>
+using namespace std;
 
 class O : public GameObject
 {
     public:
         O();
         virtual ~O();
-        void moveLeft();
-        void moveRight();
-        void moveDown();
-        void rotate();
+        bool moveLeft();
+        bool moveRight();
+        bool moveDown();
+        bool rotate();
     private:
         int position[3];
-        char ImagePath[4] = "O.bmp";
+        string ImagePath;
 };
 
 #endif // O_H

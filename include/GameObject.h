@@ -7,10 +7,10 @@ class GameObject
     public:
         GameObject();
         virtual ~GameObject();
-        void moveLeft();
-        void moveRight();
-        void moveDown();
-        void rotate();
+        bool moveLeft();
+        bool moveRight();
+        bool moveDown();
+        bool rotate();
     protected:
     private:
 };

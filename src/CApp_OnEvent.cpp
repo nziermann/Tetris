@@ -3,8 +3,12 @@
 
 //==============================================================================
 void CApp::OnEvent(SDL_Event* Event) {
-    if(Event->type == SDL_QUIT) {
-        Running = false;
+    switch (Event->type)
+    {
+        case SDL_Quit:
+            Running = false;
+            break;
+        case
     }
 }
 

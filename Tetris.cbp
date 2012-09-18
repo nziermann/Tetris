@@ -3,7 +3,6 @@
 	<FileVersion major="1" minor="6" />
 	<Project>
 		<Option title="tetris" />
-		<Option execution_dir="/home/nils/workspace/Tetris/" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -52,6 +51,8 @@
 		<Unit filename="src/GameField.cpp" />
 		<Unit filename="src/GameObject.cpp" />
 		<Unit filename="src/O.cpp" />
+		<Unit filename="src/main" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

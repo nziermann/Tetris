@@ -21,6 +21,7 @@ class CApp {
         bool            Running;
         SDL_Surface*    Surf_Display;
         GameField*      gameField;
+        GameObject      gameObject;
 };
 
 //==============================================================================

@@ -9,12 +9,10 @@ using namespace std;
 class O : public GameObject
 {
     public:
-        O();
+        O(GameField* Field);
         virtual ~O();
-        bool moveLeft();
-        bool moveRight();
-        bool moveDown();
         bool rotate();
+        bool spawn();
     private:
         int position[3];
         string ImagePath;

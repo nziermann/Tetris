@@ -2,29 +2,25 @@
     #define _CAPP_H_
 
 #include <SDL.h>
+#include "GameField.h"
+#include "GameObject.h"
 
 //==============================================================================
 class CApp {
-    private:
-        bool            Running;
-
-        SDL_Surface*    Surf_Display;
 
     public:
         CApp();
-
         int OnExecute();
-
-    public:
         bool OnInit();
-
         void OnEvent(SDL_Event* Event);
-
         void OnLoop();
-
         void OnRender();
-
         void OnCleanup();
+
+    private:
+        bool            Running;
+        SDL_Surface*    Surf_Display;
+        GameField*      gameField;
 };
 
 //==============================================================================
